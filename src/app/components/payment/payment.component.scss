@@ -1,0 +1,50 @@
+.transfer-container {
+    background-color: white;
+    padding-bottom: 15px;    
+    border-radius: 25px;
+  
+    .section-header {
+      &:before {
+        background-color: #067b9e;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+      }
+    }
+  
+    form {
+      padding: 20px;
+      .form-group .form-control {
+        border-radius: 10px;
+        font-size: small;
+        border-width: 1px;
+      }
+    }
+    .submit {
+      button {
+        width: 200px;
+      }
+    }
+  }
+
+  #form-control {
+      padding: 0 0 0 25px;
+  }
+
+  .errspan {
+    float: left;
+    margin-left: 6px;
+    margin-top: -23px;
+    position: relative;
+    z-index: 2;
+}
+
+.btn {
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+  

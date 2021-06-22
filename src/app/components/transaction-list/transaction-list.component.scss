@@ -1,0 +1,62 @@
+.logo{
+	height: 50px;
+}
+
+.search-panel {
+    margin-bottom: 15px;
+    margin-left: 0px;
+    padding-top: 10px;
+    height: 40px;
+    @media screen and (max-width: 1200px) {
+        margin-right: 0px;
+    }   
+    
+    .search-box {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .sorting-panel{
+        margin-top: 10px;
+        text-align: right;
+        padding-right: 0;
+        @media screen and (min-width: 1200px) {
+            text-align: center;
+        }
+    }
+}
+
+.table {
+    tr {
+        border-bottom: 1px solid #dee2e6;
+        td{
+            border: none;
+            vertical-align: middle;
+        }
+    }
+}
+
+.close{
+    border-bottom:1px solid #ced4da;
+}
+
+.container {
+    background-color: white;
+    padding-bottom: 15px;    
+    border-radius: 0 0 25px 25px;
+}
+
+.form-group .form-control {
+    border-radius: 10px;
+    font-size: small;
+    border-width: 1px;
+}
+
+.errspan {
+    float: left;
+    margin-left: 6px;
+    margin-top: -23px;
+    position: relative;
+    z-index: 2;
+}
+

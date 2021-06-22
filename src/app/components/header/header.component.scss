@@ -1,0 +1,21 @@
+@import '../../../../src/lib/bb-ui/styles/main.scss';
+
+.navbar{    
+    background-color: $primary-blue;
+    height: 40px;    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    .navbar-brand
+    {
+        color: black;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        margin: auto 60px;
+        text-align: left;
+        font-size: medium;
+    }
+}
+
